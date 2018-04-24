@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_startWith"
+        style="@style/button_style"
+        android:text="startWith组合操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_merge"
+        style="@style/button_style"
+        android:text="merge组合操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_concat"
+        style="@style/button_style"
+        android:text="concat组合操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_zip"
+        style="@style/button_style"
+        android:text="zip组合操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_combineLastest"
+        style="@style/button_style"
+        android:text="combineLastest组合操作符" />
+</LinearLayout>

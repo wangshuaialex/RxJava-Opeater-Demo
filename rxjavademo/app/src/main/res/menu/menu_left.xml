@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/menu_group">
+        <item
+            android:id="@+id/item_create"
+            android:icon="@mipmap/cat_icon"
+            android:title="创建操作符"></item>
+        <item
+            android:id="@+id/item_transform"
+            android:icon="@mipmap/cat_icon"
+            android:title="变换操作符"></item>
+        <item
+            android:id="@+id/item_filter"
+            android:icon="@mipmap/cat_icon"
+            android:title="过滤操作符"></item>
+        <item
+            android:id="@+id/item_combina"
+            android:icon="@mipmap/cat_icon"
+            android:title="组合操作符"></item>
+        <item
+            android:id="@+id/item_support"
+            android:icon="@mipmap/cat_icon"
+            android:title="辅助操作符"></item>
+        <item
+            android:id="@+id/item_error"
+            android:icon="@mipmap/cat_icon"
+            android:title="错误操作符"></item>
+        <item
+            android:id="@+id/item_boolean"
+            android:icon="@mipmap/cat_icon"
+            android:title="布尔操作符"></item>
+        <item
+            android:id="@+id/item_condition"
+            android:icon="@mipmap/cat_icon"
+            android:title="条件操作符"></item>
+        <item
+            android:id="@+id/item_convertion"
+            android:icon="@mipmap/cat_icon"
+            android:title="转换操作符"></item>
+    </group>
+</menu>

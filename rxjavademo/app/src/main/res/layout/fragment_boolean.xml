@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_all"
+        style="@style/button_style"
+        android:text="all操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_contains"
+        style="@style/button_style"
+        android:text="contains操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_isEmpty"
+        style="@style/button_style"
+        android:text="isEmpty操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_exists"
+        style="@style/button_style"
+        android:text="exists操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_sequenceEqual"
+        style="@style/button_style"
+        android:text="sequenceEqual操作符" />
+</LinearLayout>

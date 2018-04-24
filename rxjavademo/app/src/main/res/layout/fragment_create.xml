@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_create"
+        style="@style/button_style"
+        android:text="create操作符创建Observable对象" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_just"
+        style="@style/button_style"
+        android:text="just操作符创建Observable对象" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_from"
+        style="@style/button_style"
+        android:text="from操作符创建Observable对象" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_interval"
+        style="@style/button_style"
+        android:text="interval操作符创建Observable对象" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_range"
+        style="@style/button_style"
+        android:text="range操作符创建Observable对象" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_repeat"
+        style="@style/button_style"
+        android:text="repeat操作符创建Observable对象" />
+</LinearLayout>

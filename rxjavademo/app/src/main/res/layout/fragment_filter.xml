@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_filter"
+        style="@style/button_style"
+        android:text="filter操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_elementAt"
+        style="@style/button_style"
+        android:text="elementAt操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_distinct"
+        style="@style/button_style"
+        android:text="distinct操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_skip"
+        style="@style/button_style"
+        android:text="skip操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_take"
+        style="@style/button_style"
+        android:text="take操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_ignoreElements"
+        style="@style/button_style"
+        android:text="ignoreElements操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_throttleFirst"
+        style="@style/button_style"
+        android:text="throttleFirst操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_throttleWithTimeOut"
+        style="@style/button_style"
+        android:text="throttleWithTimeOut操作符" />
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_map"
+        style="@style/button_style"
+        android:text="map操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_flatMap"
+        style="@style/button_style"
+        android:text="flatMap操作符" />
+
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_concatMap"
+        style="@style/button_style"
+        android:text="concatMap操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_cast"
+        style="@style/button_style"
+        android:text="cast操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_flatMapIterable"
+        style="@style/button_style"
+        android:text="flatMapIterable操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_buffer"
+        style="@style/button_style"
+        android:text="buffer操作符" />
+
+    <com.qmuiteam.qmui.alpha.QMUIAlphaButton
+        android:id="@+id/btn_groupBy"
+        style="@style/button_style"
+        android:text="groupBy操作符" />
+</LinearLayout>
